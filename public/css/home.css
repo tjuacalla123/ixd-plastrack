@@ -1,0 +1,14 @@
+.plastrack {
+	text-align: center;
+}
+
+#homepage {
+	background-color: #808080;
+}
+
+#homepage.jumbotron {
+	margin-bottom: 100px; 
+}
+body {
+	background-color: #808080;
+}
