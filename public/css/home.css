@@ -1,14 +1,11 @@
-.plastrack {
+.plastrack, h2 {
 	text-align: center;
 }
 
-#homepage {
+body, #homepage {
 	background-color: #808080;
 }
 
-#homepage.jumbotron {
-	margin-bottom: 100px; 
-}
-body {
-	background-color: #808080;
+.jumbotron {
+	margin-bottom: 50px; 
 }
