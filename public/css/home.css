@@ -14,3 +14,10 @@ body, #homepage {
 #log.jumbotron h2 {
 	font-size: 100px;
 }
+#log.jumbotron {
+	border-radius: 80px;
+}
+
+.well {
+	border-radius: 30px;
+}
