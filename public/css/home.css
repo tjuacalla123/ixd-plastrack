@@ -6,6 +6,11 @@ body, #homepage {
 	background-color: #808080;
 }
 
-.jumbotron {
-	margin-bottom: 50px; 
+#log.jumbotron {
+	padding-top: 120px;
+  	padding-bottom: 120px;
+}
+
+#log.jumbotron h2 {
+	font-size: 100px;
 }
