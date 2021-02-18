@@ -9,6 +9,7 @@ body, #homepage {
 #log.jumbotron {
 	padding-top: 120px;
   	padding-bottom: 120px;
+  	
 }
 
 #log.jumbotron h2 {
@@ -20,4 +21,16 @@ body, #homepage {
 
 .well {
 	border-radius: 30px;
+}
+
+
+#homepage {
+	position: relative;
+}
+
+.glyphicon {
+	font-size: 100px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
 }
