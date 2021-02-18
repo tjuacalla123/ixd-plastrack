@@ -13,6 +13,7 @@ var logpage = require('./routes/logpage');
 var history = require('./routes/history');
 var share = require('./routes/share');
 var tips = require('./routes/tips');
+var settings = require('./routes/settings');
 var help = require('./routes/help');
 
 // Example route
@@ -45,6 +46,7 @@ app.get('/logpage', logpage.view);
 app.get('/history', history.view);
 app.get('/share', share.view);
 app.get('/tips', tips.view);
+app.get('/settings', settings.view);
 app.get('/help', help.view);
 
 // Example route
