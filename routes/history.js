@@ -1,4 +1,3 @@
 exports.view = function(req, res){
-  res.render('logpage.handlebars');
+  res.render('history.handlebars');
 };
-
