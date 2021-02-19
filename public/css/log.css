@@ -50,11 +50,13 @@ body{
 	font-weight: bolder;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	border: none;
+
  }
 
 .dropdown-menu {
 	position: relative;
 	display: inline-block;
+	background-color: #000000;
 }
 
 .menu-content {
