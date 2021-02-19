@@ -1,3 +1,7 @@
+body{
+	max-width: 1400px;
+	margin: auto;
+}
 .logItem {
 	border-radius: 30px;
 	background: #808080;
@@ -21,12 +25,14 @@
 
 #overlapContainer {
     position: relative;    
+    width: 350px;
+    margin: auto;
 }
 
 #overlapItem {
    position: absolute;
    border-radius: 30px;
-   background: #48435c;
+   background: #000000;
    color: white;
    text-align: center; 
    vertical-align: middle;
@@ -54,13 +60,17 @@
 .menu-content {
 	display: none;
 	position: absolute;
-	background-color: #333f85;
+	background-color: #a0a0a0;
 	min-width: 160px;
 	z-index: 1;
 }
 
+.menu-content a{
+	color: black;
+}
+
 nav {
-	background-color: #333f85;
+	background-color: #000000;
 }
 
 .links, .links-hidden {
@@ -79,16 +89,33 @@ nav {
 	display: inline-block;
 }
 
-.links-hidden:hover,.links:hover {
-	background-color: #5368df;
+.links a{
+	text-decoration: none;
+	color: black;
 }
 
+.links-hidden:hover,.links:hover {
+	background-color: #000000;
+}
+
+.links-hidden:hover,.links:hover a{
+	background-color: #000000;
+	text-decoration: none;
+	color: white;
+
+}
 .dropdown-menu:hover .menu-content {
 	display: block;
 }
 
 .dropdown-menu:hover .menu-btn {
-	background-color: #5368df;
+	background-color: #a0a0a0;
+	font-color: white;
+}
+
+.dropdown-menu:hover .menu-btn a{
+	text-decoration: none;
+	color: white;
 }
 
 * {
