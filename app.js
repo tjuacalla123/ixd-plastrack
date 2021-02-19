@@ -15,6 +15,7 @@ var share = require('./routes/share');
 var tips = require('./routes/tips');
 var settings = require('./routes/settings');
 var help = require('./routes/help');
+var additem = require('./routes/additem');
 
 // Example route
 // var user = require('./routes/user');
@@ -48,6 +49,7 @@ app.get('/share', share.view);
 app.get('/tips', tips.view);
 app.get('/settings', settings.view);
 app.get('/help', help.view);
+app.get('/additem', additem.view);
 
 // Example route
 // app.get('/users', user.list);

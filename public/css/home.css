@@ -1,9 +1,10 @@
 .plastrack, h2 {
 	text-align: center;
+	color: #000000;
 }
 
 body, #homepage {
-	background-color: #808080;
+	background-color: #a9a9a9;
 }
 
 #log.jumbotron {
@@ -21,6 +22,7 @@ body, #homepage {
 
 .well {
 	border-radius: 30px;
+	background: #808080;
 }
 
 
@@ -33,5 +35,9 @@ body, #homepage {
 	position: absolute;
 	right: 0px;
 	top: 0px;
+}
+
+.well h2 {
+	color: #000000;
 }
 
