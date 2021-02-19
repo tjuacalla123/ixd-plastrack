@@ -16,6 +16,7 @@ body, #homepage {
 #log.jumbotron h2 {
 	font-size: 100px;
 }
+
 #log.jumbotron {
 	border-radius: 80px;
 }
@@ -25,19 +26,20 @@ body, #homepage {
 	background: #808080;
 }
 
-
-#homepage {
-	position: relative;
-}
-
-.glyphicon {
-	font-size: 100px;
-	position: absolute;
-	right: 0px;
-	top: 0px;
-}
-
 .well h2 {
 	color: #000000;
 }
 
+.well:hover,  #log.jumbotron:hover {
+	background-color: #000000;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+.well:hover h2, #log.jumbotron:hover h2{
+    color: white;
+}
