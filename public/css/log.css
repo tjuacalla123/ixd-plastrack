@@ -3,6 +3,11 @@ body{
 	margin: auto;
 }
 
+h2 {
+	font-size:25px;
+	letter-spacing: -1px;
+}
+
 .container{
 	max-width:1000px;
 	margin: auto;
@@ -21,12 +26,23 @@ body{
 }
 
 .rectangle {
-	height: 75px;
-    width: 200px;
-    background-color: rgb(253, 253, 253);
-	opacity: 0.5;
+	width: 200px;
+	position: relative;
+	margin-top: 10px;
+    background-color: #f8f8f8;
+    padding: 10px;
+	opacity: 50%;
+	text-align:center;
 	justify-content: left;
 	vertical-align: middle;
+}
+
+.rectangle:hover {
+	opacity: 100%;
+}
+
+.rectangle a:hover{
+	text-decoration: none;
 }
 
 #overlapContainer {
