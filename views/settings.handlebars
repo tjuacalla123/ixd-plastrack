@@ -6,7 +6,7 @@
 	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
 	<link href = "css/bootstrap.min.css" rel = "stylesheet">
 	<link href = "css/bootstrap-theme.min.css" rel = "stylesheet">
-	<link href = "css/help.css" rel = "stylesheet">
+	<link href = "css/sharensetting.css" rel = "stylesheet">
 	<link href = "css/navbar.css" rel = "stylesheet">
 </head>
 
@@ -37,7 +37,6 @@
 					</button>
 				</div>
 			</div>
-			
 		</div>
 	</div>
 
@@ -49,7 +48,71 @@
 	</div>
 	
 	<div class="row">
-		
+		<div class="col-xs-10 col-xs-offset-1 share">
+			<div class="settings-list">
+					<div class="set-share">
+						<div class="well setting-text">
+							<p class="set-text">Setting 1</p>
+						</div>
+						<div class="set-box">
+							<select name="friend" id=choose-settings>
+								<option value="friend">Option 1</option>
+								<option value="friend">Option 2</option>
+
+							</select>
+						</div>
+					</div>
+					
+					<div class="set-share">
+						<div class="well setting-text">
+							<p class="set-text">Setting 2</p>
+						</div>
+						<div class="set-box">
+							<select name="friend" id=choose-settings>
+								<option value="friend">Yes</option>
+								<option value="friend">No</option>
+
+							</select>
+						</div>
+					</div>
+					
+					<div class="set-share">
+						<div class="well setting-text">
+							<p class="set-text">Sound</p>
+						</div>
+						<div class="set-box">
+							<label class="switch">
+  							<input type="checkbox">
+  							<span class="slider round"></span>
+							</label>
+						</div>
+					</div>
+					
+					<div class="set-share">
+						<div class="well setting-text">
+							<p class="set-text">Dark mode:</p>
+						</div>
+						<div class="set-box">
+							<label class="switch">
+  							<input type="checkbox">
+  							<span class="slider round"></span>
+							</label>
+						</div>
+					</div>
+					
+					<div class="integrate">
+						<input type="submit" value="Sync your Facebook account" id = integration>
+					</div>
+					
+
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-xs-6 col-xs-offset-3 submit">
+			<input type="submit" value="Save" id = save-btn>
+		</div>
 	</div>
 
 	<script src="https://code.jquery.com/jquery.js"></script>
