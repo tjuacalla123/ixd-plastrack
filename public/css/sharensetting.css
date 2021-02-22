@@ -41,6 +41,10 @@
   border-radius: 30px;
 }
 
+#choose-boxes, #choose-settings {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 #choose-boxes {
   width: 200px;
 }
