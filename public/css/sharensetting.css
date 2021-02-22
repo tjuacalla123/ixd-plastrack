@@ -1,5 +1,6 @@
 .send-progress, .view-progress, .settings-list {
   align-items: center;
+  flex: 1;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
