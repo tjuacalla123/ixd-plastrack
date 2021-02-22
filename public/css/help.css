@@ -12,15 +12,8 @@
 #desc1, #desc2 {
   display: none;
 }
-.plastrack {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-}
 
 /*Hover styling*/
 #title1:hover  + #desc1, #title2:hover + #desc2 {
   display: block;
 }
-
-/*Buttons styling*/
