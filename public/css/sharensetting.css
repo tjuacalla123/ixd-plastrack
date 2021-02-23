@@ -22,8 +22,13 @@
   z-index: 1;
 }
 
-.share-text, .set-text {
+.share-text {
   font-size: 10px;
+}
+.set-text {
+  font-size: 15px;
+}
+.share-text, .set-text {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -69,7 +74,7 @@
 .set-share {
   justify-content: space-between;
   margin: 10px 0px 0px 0px;
-  width: 90%;
+  width: 100%;
   height: 50px;
 }
 .integrate {
