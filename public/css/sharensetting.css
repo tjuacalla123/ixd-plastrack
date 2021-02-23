@@ -1,14 +1,13 @@
 .send-progress, .view-progress, .settings-list {
   align-items: center;
   display: flex;
-  margin: auto;
   flex-direction: column;
   padding-left: 10px;
   padding-right: 10px;
   padding: 0;
-  margin-left: auto;
 }
-.send-progress {
+.send-progress, .view-progress {
+  display: block;
   width: 100%;
   height: auto;
   margin: 0px 0px 10px 0px;
@@ -17,11 +16,6 @@
   width: 100%;
   height: auto;
   margin: 0px 0px 20px 0px;
-}
-.view-progress {
-  width: 100%;
-  height: auto;
-  margin: 0px 0px 10px 0px;
 }
 .space {
   position: fixed;
@@ -39,11 +33,6 @@
 
 .well, .jumbotron, #choose-boxes, #choose-settings, #send-btn, #save-btn, #integration {
   border-radius: 30px;
-}
-
-#choose-boxes, #choose-settings {
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 #choose-boxes {
   width: 200px;
@@ -68,20 +57,22 @@
   display: flex;
   justify-content: center;
 }
-.row-share, .set-share, .integrate {
+.row-share, .row-share1, .set-share, .integrate {
   display: flex;
   align-items: center;
-  width: 90%;
 }
-.row-share {
+.row-share, .row-share1 {
+  margin: auto 0;
   justify-content: space-around;
 }
 .set-share {
   justify-content: space-between;
   margin: 0px 0px 20px 0px;
+  width: 90%;
 }
 .integrate {
   justify-content: center;
+  width: 90%;
 }
 .choose-box, .set-box {
   height: 50%;
